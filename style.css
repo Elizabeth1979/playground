@@ -1,0 +1,82 @@
+body {
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+.flex-items-start {
+    align-self: start;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.flex-columns {
+    flex-direction: column;
+}
+
+ul[role="list"] {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+// CSS reset
+
+// intuitive box sizing
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+// Remove default margins
+* {
+    margin: 0;
+}
+
+// Allow percentage based heights
+html, body {
+    height: 100%;
+}
+
+// Accessible line height
+body {
+    line-height: 1.5;
+}
+
+// Media defaults
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+// Remove built in form typography
+input, button, textarea, select {
+    font: inherit;
+}
+
+// Avoid text overflow
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+
+
+
+
+
